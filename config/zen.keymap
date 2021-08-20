@@ -8,6 +8,12 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define QWERTY    0
+#define SYMBOL    1
+#define CONTROL   2
+#define ADJUST    3
+#define SHORTCUTS 4
+
 / {
         chosen {
                 zmk,matrix_transform = &five_column_transform;
@@ -15,7 +21,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
+                qwerty_layer {
 // ------------------------------------------------------------------
 // |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |
 // |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |
