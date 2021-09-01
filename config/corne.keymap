@@ -48,10 +48,10 @@
 
                 qwerty_layer {
                         bindings = <
-   &kp Q      &kp W      &kp E       &kp R        &kp T &kp Y &kp U        &kp I       &kp O      &kp P
-   &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G &kp H &hm RSHIFT J &hm RCTRL K &hm RALT L &hm RGUI SEMI
-   &kp Z      &kp X      &kp C       &kp V        &kp B &kp N &kp M        &kp COMMA   &kp DOT    &kp FSLH
-   &ht F19 ESC &lt SYMBOL BSPC &lt SHORTCUTS TAB &kp RET &lt CONTROL SPACE &lt SHORTCUTS SQT
+   &kp Q           &kp W      &kp E       &kp R        &kp T &kp Y &kp U        &kp I       &kp O      &kp P
+   &hm LGUI A      &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G &kp H &hm RSHIFT J &hm RCTRL K &hm RALT L &hm RGUI SEMI
+   &kp Z           &kp X      &kp C       &kp V        &kp B &kp N &kp M        &kp COMMA   &kp DOT    &kp FSLH
+   &th_bal F19 ESC &lt SYMBOL BSPC &lt SHORTCUTS TAB &kp RET &lt CONTROL SPACE &lt SHORTCUTS SQT
                         >;
                 };
                 symbol_layer {
