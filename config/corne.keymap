@@ -53,42 +53,42 @@
  &hm LGUI A      &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G &kp H &hm RSHIFT J &hm RCTRL K &hm RALT L &hm RGUI SEMI
  &kp Z           &kp X      &kp C       &kp V        &kp B &kp N &kp M        &kp COMMA   &kp DOT    &kp FSLH
  &th_bal F19 ESC &lt SYMBOL BSPC &lt SHORTCUTS TAB &kp RET &lt CONTROL SPACE &lt SHORTCUTS SQT
-                        >;
-                };
-                symbol_layer {
-                        bindings = <
-   &kp EXCL    &kp AT     &kp LBKT &kp RBKT &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &kp CAPS
-   &kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
-   &kp PERCENT &kp CARET  &kp LBRC &kp RBRC &kp TILD  &kp AMPS  &kp QUES  &kp LT    &kp GT    &kp BACKSLASH
-                                 &trans &trans &trans &trans &trans &kp DQT
-                        >;
-                };
+      >;
+    };
+    symbol_layer {
+      bindings = <
+&kp EXCL    &kp AT     &kp LBKT &kp RBKT &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &kp CAPS
+&kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
+&kp PERCENT &kp CARET  &kp LBRC &kp RBRC &kp TILD  &kp AMPS  &kp QUES  &kp LT    &kp GT    &kp BACKSLASH
+                             &trans &trans &trans &trans &trans &kp DQT
+      >;
+    };
 
-                control_layer {
-                        bindings = <
-   &kb N1 &kb N2 &kb N3 &kb N4 &kb N5 &kb N6   &kb N7   &kb N8 &kb N9    &kb N0
-   &trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-   &trans &trans &trans &trans &trans &trans   &trans   &trans &trans    &trans
-                 &trans &trans &trans &trans   &trans   &trans
-                        >;
-                };
+    control_layer {
+      bindings = <
+&kb N1 &kb N2 &kb N3 &kb N4 &kb N5 &kb N6   &kb N7   &kb N8 &kb N9    &kb N0
+&trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+&trans &trans &trans &trans &trans &trans   &trans   &trans &trans    &trans
+             &trans &trans &trans &trans   &trans   &trans
+      >;
+    };
 
-                adjust_layer {
-                        bindings = <
-   &RESET &bootloader &trans &trans &trans  &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3   &bt BT_SEL 4
-   &kp F1 &kp F2      &kp F3 &kp F4 &kp F5  &trans       &trans           &trans       &trans         &bt BT_CLR
-   &kp F6 &kp F7      &kp F8 &kp F9 &kp F10 &trans       &kp C_PLAY_PAUSE &kp C_VOL_UP &kp C_VOL_DOWN &trans
-                      &trans &trans &trans  &trans       &trans           &trans
-                        >;
-                };
+    adjust_layer {
+      bindings = <
+&RESET &bootloader &trans &trans &trans  &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3   &bt BT_SEL 4
+&kp F1 &kp F2      &kp F3 &kp F4 &kp F5  &trans       &trans           &trans       &trans         &bt BT_CLR
+&kp F6 &kp F7      &kp F8 &kp F9 &kp F10 &trans       &kp C_PLAY_PAUSE &kp C_VOL_UP &kp C_VOL_DOWN &trans
+                  &trans &trans &trans  &trans       &trans           &trans
+      >;
+   };
 
-                shortcuts_layer {
-                        bindings = <
-   &kp N1   &kp N2    &kp N3    &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &trans
-   &kp SWIN &kp SCRN  &kp ZMIN  &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
-   &kp SPC  &kp RET   &kp ZMOUT &kp TABP &kp HBCK &trans   &kp N1 &kp N2 &kp N3 &kp DOT
-                      &trans    &trans   &trans   &trans   &trans &trans
-                        >;
-                };
-        };
+    shortcuts_layer {
+      bindings = <
+&kp N1   &kp N2    &kp N3    &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &trans
+&kp SWIN &kp SCRN  &kp ZMIN  &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
+&kp SPC  &kp RET   &kp ZMOUT &kp TABP &kp HBCK &trans   &kp N1 &kp N2 &kp N3 &kp DOT
+                  &trans    &trans   &trans   &trans   &trans &trans
+      >;
+    };
+  };
 };
