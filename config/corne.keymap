@@ -59,7 +59,7 @@
       bindings = <
 &kp EXCL    &kp AT     &kp LBKT &kp RBKT &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &kp CAPS
 &kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
-&kp PERCENT &kp CARET  &kp LBRC &kp RBRC &kp TILD  &kp AMPS  &kp QUES  &kp LT    &kp GT    &kp BACKSLASH
+&kp PERCENT &kp CARET  &kp LBRC &kp RBRC &kp TILDE &kp AMPS  &kp QUES  &kp LT    &kp GT    &kp BACKSLASH
                              &trans &trans &trans &trans &trans &kp DQT
       >;
     };
