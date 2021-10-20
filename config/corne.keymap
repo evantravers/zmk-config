@@ -32,6 +32,16 @@
     zmk,matrix_transform = &five_column_transform;
   };
 
+  combos {
+    compatible = "zmk,combos";
+
+    fn_mo {
+      timeout-ms = <50>;
+      key-positions = <32 34>;
+      bindings = <&mo ADJUST>;
+    };
+  };
+
   behaviors {
     hm: homerow_mods {
       compatible = "zmk,behavior-hold-tap";
