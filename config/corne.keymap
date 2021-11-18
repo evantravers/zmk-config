@@ -34,11 +34,14 @@
 
   combos {
     compatible = "zmk,combos";
+  };
 
-    fn_mo {
-      timeout-ms = <50>;
-      key-positions = <32 34>;
-      bindings = <&mo ADJUST>;
+  conditional_layers {
+    compatible = "zmk,conditional-layers";
+
+    tri_layer {
+      if-layers = <SYMBOL CONTROL>;
+      then-layer = <ADJUST>;
     };
   };
 
