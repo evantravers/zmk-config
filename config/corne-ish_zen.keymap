@@ -28,9 +28,9 @@
 #define PASS LG(BSLS)
 
 / {
-  chosen {
-    zmk,matrix_transform = &five_column_transform;
-  };
+  /* chosen { */
+  /*   zmk,matrix_transform = &five_column_transform; */
+  /* }; */
 
   combos {
     compatible = "zmk,combos";
@@ -62,44 +62,44 @@
 
     qwerty_layer {
       bindings = <
- &kp Q           &kp W      &kp E       &kp R        &kp T &kp Y &kp U        &kp I       &kp O      &kp P
- &hm LGUI A      &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G &kp H &hm RSHIFT J &hm RCTRL K &hm RALT L &hm RGUI SEMI
- &kp Z           &kp X      &kp C       &kp V        &kp B &kp N &kp M        &kp COMMA   &kp DOT    &kp FSLH
+ &trans &kp Q           &kp W      &kp E       &kp R        &kp T &kp Y &kp U        &kp I       &kp O      &kp P &trans
+ &trans &hm LGUI A      &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G &kp H &hm RSHIFT J &hm RCTRL K &hm RALT L &hm RGUI SEMI &trans
+ &trans &kp Z           &kp X      &kp C       &kp V        &kp B &kp N &kp M        &kp COMMA   &kp DOT    &kp FSLH &trans
  &mt F19 ESC &lt SYMBOL BSPC &lt SHORTCUTS TAB &kp RET &lt CONTROL SPACE &lt SHORTCUTS SQT
       >;
     };
     symbol_layer {
       bindings = <
-&kp EXCL    &kp AT     &kp LBRC &kp RBRC &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &kp CAPS
-&kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
-&kp PERCENT &kp CARET  &kp LBKT &kp RBKT &kp TILDE &kp AMPS  &kp QMARK &kp LT    &kp GT    &kp BACKSLASH
+&trans &kp EXCL    &kp AT     &kp LBRC &kp RBRC &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &kp CAPS &trans
+&trans &kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON &trans
+&trans &kp PERCENT &kp CARET  &kp LBKT &kp RBKT &kp TILDE &kp AMPS  &kp QMARK &kp LT    &kp GT    &kp BACKSLASH &trans
                              &trans &trans &trans &trans &trans &kp DQT
       >;
     };
 
     control_layer {
       bindings = <
-&kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6   &kp N7   &kp N8 &kp N9    &kp N0
-&trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-&trans &trans &trans &trans &trans &trans   &trans   &trans &trans    &trans
+&trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &trans
+&trans &trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+&trans &trans &trans &trans &trans &trans &trans   &trans   &trans &trans    &trans &trans
              &trans &trans &trans &trans   &trans   &trans
       >;
     };
 
     adjust_layer {
       bindings = <
-&reset &bootloader &trans &trans &trans  &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-&kp F1 &kp F2      &kp F3 &kp F4 &kp F5  &trans       &trans           &trans       &trans       &bt BT_CLR
-&kp F6 &kp F7      &kp F8 &kp F9 &kp F10 &trans       &kp C_PLAY_PAUSE &kp C_VOL_UP &kp C_VOL_DN &trans
+&trans &reset &bootloader &trans &trans &trans  &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans
+&trans &kp F1 &kp F2      &kp F3 &kp F4 &kp F5  &trans       &trans           &trans       &trans       &bt BT_CLR &trans
+&trans &kp F6 &kp F7      &kp F8 &kp F9 &kp F10 &trans       &kp C_PLAY_PAUSE &kp C_VOL_UP &kp C_VOL_DN &trans &trans
                    &trans &trans &trans  &trans       &trans           &trans
       >;
    };
 
     shortcuts_layer {
       bindings = <
-&kp N1    &kp N2    &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &trans
-&kp SWIN  &kp SCRN  &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
-&kp SPACE &kp RET   &kp ZOUT &kp TABP &kp HBCK &trans   &kp N1 &kp N2 &kp N3 &kp DOT
+&trans &kp N1    &kp N2    &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &trans &trans
+&trans &kp SWIN  &kp SCRN  &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB &trans
+&trans &kp SPACE &kp RET   &kp ZOUT &kp TABP &kp HBCK &trans   &kp N1 &kp N2 &kp N3 &kp DOT &trans
                   &trans    &trans   &trans   &trans   &trans &trans
       >;
     };
