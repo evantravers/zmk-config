@@ -70,7 +70,7 @@
       >;
     };
     symbol_layer {
-      label = "SYMBOLS";
+      label = "SYMBOL";
       bindings = <
 &kp EXCL    &kp AT     &kp LBRC &kp RBRC &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &kp CAPS
 &kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
@@ -80,7 +80,7 @@
     };
 
     control_layer {
-      label = "CONTROL";
+      label = "CONTRL";
       bindings = <
 &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6   &kp N7   &kp N8 &kp N9    &kp N0
 &trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
@@ -100,7 +100,7 @@
    };
 
     shortcuts_layer {
-      label = "SHORTCUTS";
+      label = "SHRTCT";
       bindings = <
 &kp N1    &kp N2    &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &kp PASS
 &kp SWIN  &kp SCRN  &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
