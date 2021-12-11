@@ -21,11 +21,11 @@
 #define SCRN LG(LS(LC(N4)))
 #define ZMIN LG(PLUS)
 #define ZOUT LG(MINUS)
-#define TABN LS(LG(RBRC))
-#define TABP LS(LG(LBRC))
-#define HBCK LG(LBRC)
-#define HFWD LG(RBRC)
-#define PASS LG(BSLS)
+#define TABN LS(LG(RBKT))
+#define TABP LS(LG(LBKT))
+#define HBCK LG(LBKT)
+#define HFWD LG(RBKT)
+#define PASS LG(BSLH)
 
 / {
   /* chosen { */
