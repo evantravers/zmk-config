@@ -35,6 +35,11 @@
 
   combos {
     compatible = "zmk,combos";
+    combo_sqt {
+        timeout-ms = <50>;
+        key-positions = <18 19>;
+        bindings = <&kp SQT>;
+    };
   };
 
   conditional_layers {
