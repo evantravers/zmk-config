@@ -85,7 +85,7 @@
 &kp EXCL    &kp AT     &kp LBRC &kp RBRC &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &kp CAPS
 &kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
 &kp PERCENT &kp CARET  &kp LBKT &kp RBKT &kp TILDE &kp AMPS  &kp QMARK &kp LT    &kp GT    &kp BACKSLASH
-                             &kp MUTE &trans &trans &trans &trans &kp DQT
+                             &trans &trans &trans &trans &trans &kp DQT
       >;
     };
 
@@ -115,7 +115,7 @@
 &kp N1    &kp N2    &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &kp PASS
 &kp SWIN  &kp SCRN  &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
 &kp SPACE &kp RET   &kp ZOUT &kp TABP &kp HBCK &trans   &kp N1 &kp N2 &kp N3 &kp DOT
-                  &trans    &trans   &trans   &trans   &trans &trans
+                  &trans &kp MUTE &trans   &trans   &trans &trans
       >;
     };
   };
