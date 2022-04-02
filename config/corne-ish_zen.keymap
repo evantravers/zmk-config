@@ -20,6 +20,7 @@
 /* MACROS */
 #define SWIN LG(GRAVE)
 #define SCRN LG(LS(LC(N4)))
+#define SCR2 LG(LS(N4))
 #define ZMIN LG(PLUS)
 #define ZOUT LG(MINUS)
 #define TABN LS(LG(RBKT))
@@ -63,6 +64,13 @@
       #binding-cells = <0>;
       tapping-term-ms = <200>;
       bindings = <&kp C_NEXT>, <&kp C_PREV>;
+    };
+    SCRNSHT: tap_dance_1 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "SCRNSHT";
+      #binding-cells = <0>;
+      tapping-term-ms = <200>;
+      bindings = <&kp SCRN>, <&kp SCR2>;
     };
   };
 
@@ -112,7 +120,7 @@
       label = "SHRTCT";
       bindings = <
 &kp N1    &kp N2    &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &kp PASS
-&kp SWIN  &kp SCRN  &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
+&kp SWIN  &SCRNSHT  &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
 &kp SPACE &kp RET   &kp ZOUT &kp TABP &kp HBCK &trans   &kp N1 &kp N2 &kp N3 &kp DOT
                   &trans &kp MUTE &trans   &trans   &trans &trans
       >;
