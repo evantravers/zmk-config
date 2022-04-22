@@ -76,7 +76,7 @@
       compatible = "zmk,behavior-tap-dance";
       label = "SPCRET";
       #binding-cells = <0>;
-      tapping-term-ms = <50>;
+      tapping-term-ms = <100>;
       bindings = <&kp SPACE>, <&kp RET>;
     };
   };
