@@ -21,7 +21,7 @@
 #define SWIN LG(GRAVE)
 #define SCRN LG(LS(LC(N4)))
 #define SCR2 LG(LS(N4))
-#define ZMIN LG(PLUS)
+#define ZMIN LG(EQUAL)
 #define ZOUT LG(MINUS)
 #define TABN LS(LG(RBKT))
 #define TABP LS(LG(LBKT))
