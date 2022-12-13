@@ -30,6 +30,10 @@
 #define PASS LG(BSLH)
 #define MUTE LG(LS(M))
 
+&mt {
+  tapping-term-ms = <150>;
+};
+
 / {
   chosen {
     zmk,matrix_transform = &five_column_transform;
