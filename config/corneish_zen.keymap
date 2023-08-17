@@ -29,7 +29,7 @@
 #define HFWD LG(RBKT)
 #define PASS LG(BSLH)
 #define MUTE LG(LS(M))
-#define PTT  LO(SPC)
+#define PTT  LA(SPC)
 
 &mt {
   tapping-term-ms = <150>;
