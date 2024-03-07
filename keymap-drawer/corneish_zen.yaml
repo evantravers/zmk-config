@@ -1,0 +1,187 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
+layers:
+  qwerty:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHIFT}
+  - G
+  - H
+  - {t: J, h: RSHIFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: ;, h: RGUI}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ESC, h: F19}
+  - {t: BSPC, h: symbol}
+  - {t: TAB, h: shortcuts}
+  - RET
+  - {t: SPACE, h: control}
+  - {t: '''', h: shortcuts}
+  symbol:
+  - '!'
+  - '@'
+  - '{'
+  - '}'
+  - '|'
+  - ^
+  - _
+  - +
+  - /
+  - '&caps_word'
+  - '#'
+  - $
+  - LPRN
+  - RPRN
+  - '`'
+  - /
+  - '-'
+  - '='
+  - '*'
+  - ':'
+  - '%'
+  - ^
+  - '['
+  - ']'
+  - '~'
+  - '&'
+  - '?'
+  - <
+  - '>'
+  - \
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '"'
+  control:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: GLOBE, h: sticky}
+  adjust:
+  - '&sys_reset'
+  - '&bootloader'
+  - BT CLR
+  - OUT USB
+  - OUT BLE
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - VOL DN
+  - VOL UP
+  - '&NEXT_PREV'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  shortcuts:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - BSPC
+  - '7'
+  - '8'
+  - '9'
+  - LG(BSLH)
+  - LG(GRAVE)
+  - '&SCRNSHT'
+  - LG(EQUAL)
+  - LS(LG(RBKT))
+  - LG(RBKT)
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - TAB
+  - SPC
+  - RET
+  - LG(MINUS)
+  - LS(LG(LBKT))
+  - LG(LBKT)
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - LA(SPC)
+  - LG(LS(M))
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
