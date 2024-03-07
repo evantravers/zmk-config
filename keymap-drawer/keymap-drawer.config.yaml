@@ -1,3 +1,5 @@
 draw_config:
-  glyphs:
+  zmk_keycode_map:
     F19: $$tabler:diamonds$$
+    LPRN: '('
+    RPRN: ')'
