@@ -1,3 +1,3 @@
 # ZMK Config for Corne-ish Zen
 
-![](./keymap-drawer/corneish-zen.svg)
+![](https://raw.githubusercontent.com/evantravers/zmk-config/master/keymap-drawer/corneish_zen.svg)
