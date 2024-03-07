@@ -1,3 +1,3 @@
 # ZMK Config for Corne-ish Zen
 
-![](/output_folder/keymap-drawer.svg)
+![](/output_folder/corneish-zen.svg)
