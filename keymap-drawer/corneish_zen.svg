@@ -260,6 +260,16 @@ path.combo {
 <text x="0" y="0" class="key tap">&#x27;</text>
 <text x="0" y="24" class="key hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">ESC</text>
+<text x="56" y="165" class="combo hold">F19</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="141" width="28" height="26" class="combo"/>
+<text x="672" y="154" class="combo tap">&#x27;</text>
+<text x="672" y="165" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-symbol">
@@ -407,6 +417,16 @@ path.combo {
 <g transform="translate(560, 205)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&quot;</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">ESC</text>
+<text x="56" y="165" class="combo hold">F19</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="141" width="28" height="26" class="combo"/>
+<text x="672" y="154" class="combo tap">&#x27;</text>
+<text x="672" y="165" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 </g>
 </g>
@@ -556,6 +576,16 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">GLOBE</text>
 <text x="0" y="24" class="key hold">sticky</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">ESC</text>
+<text x="56" y="165" class="combo hold">F19</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="141" width="28" height="26" class="combo"/>
+<text x="672" y="154" class="combo tap">&#x27;</text>
+<text x="672" y="165" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 </g>
 </g>
@@ -721,6 +751,16 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">ESC</text>
+<text x="56" y="165" class="combo hold">F19</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="141" width="28" height="26" class="combo"/>
+<text x="672" y="154" class="combo tap">&#x27;</text>
+<text x="672" y="165" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1323)" class="layer-shortcuts">
@@ -868,6 +908,16 @@ path.combo {
 <g transform="translate(560, 205)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
+<text x="56" y="154" class="combo tap">ESC</text>
+<text x="56" y="165" class="combo hold">F19</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="141" width="28" height="26" class="combo"/>
+<text x="672" y="154" class="combo tap">&#x27;</text>
+<text x="672" y="165" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 </g>
 </g>
