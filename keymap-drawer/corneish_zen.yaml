@@ -188,5 +188,5 @@ layers:
 combos:
 - p: [20, 21]
   k: {t: ESC, h: F19}
-- p: [28, 29]
+- p: [18, 19]
   k: {t: '''', h: shortcuts}
