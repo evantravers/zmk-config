@@ -49,7 +49,7 @@
     };
     combo_quote {
       timeout-ms = <50>;
-      key-positions = <28 29>;
+      key-positions = <18 19>;
       bindings = <&lt SHORTCUTS SQT>;
     };
   };
