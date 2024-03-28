@@ -1,0 +1,312 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/* LAYERS */
+#define QWERTY    0
+#define SYMBOL    1
+#define CONTROL   2
+#define ADJUST    3
+#define SHORTCUTS 4
+
+/* MACROS */
+#define SWIN LG(GRAVE)
+#define SCRN LG(LS(LC(N4)))
+#define SCR2 LG(LS(N4))
+#define ZMIN LG(EQUAL)
+#define ZOUT LG(MINUS)
+#define TABN LS(LG(RBKT))
+#define TABP LS(LG(LBKT))
+#define HBCK LG(LBKT)
+#define HFWD LG(RBKT)
+#define PASS LG(BSLH)
+#define MUTE LG(LS(M))
+#define PTT  LA(SPC)
+
+&mt {
+  tapping-term-ms = <150>;
+};
+
+/ {
+  chosen {
+    zmk,matrix_transform = &five_column_transform;
+  };
+
+  combos {
+    compatible = "zmk,combos";
+    combo_esc {
+      timeout-ms = <50>;
+      key-positions = <0 1>;
+      bindings = <&kp ESC>;
+    };
+    combo_quote {
+      timeout-ms = <50>;
+      key-positions = <18 19>;
+      bindings = <&kp SQT>;
+    };
+    combo_hyper {
+      timeout-ms = <50>;
+      key-positions = <10 19>;
+      bindings = <&sk F19>;
+    };
+    combo_shortcuts {
+      timeout-ms = <50>;
+      key-positions = <19 29>;
+      bindings = <&mo SHORTCUTS>;
+    };
+  };
+
+  conditional_layers {
+    compatible = "zmk,conditional-layers";
+
+    tri_layer {
+      if-layers = <SYMBOL CONTROL>;
+      then-layer = <ADJUST>;
+    };
+  };
+
+  behaviors {
+    hm: homerow_mods {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_MODS";
+      #binding-cells = <2>;
+      tapping-term-ms = <150>;
+      quick_tap_ms = <0>;
+      flavor = "tap-preferred";
+      bindings = <&kp>, <&kp>;
+    };
+    NEXT_PREV: tap_dance_0 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "NEXT_PREV";
+      #binding-cells = <0>;
+      tapping-term-ms = <200>;
+      bindings = <&kp C_NEXT>, <&kp C_PREV>;
+    };
+    SCRNSHT: tap_dance_1 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "SCRNSHT";
+      #binding-cells = <0>;
+      tapping-term-ms = <200>;
+      bindings = <&kp SCRN>, <&kp SCR2>;
+    };
+    SPCRET: tap_dance_2 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "SPCRET";
+      #binding-cells = <0>;
+      tapping-term-ms = <150>;
+      bindings = <&kp SPACE>, <&kp RET>;
+    };
+    DOT_TAB: tap_dance_3 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "DOT_TAB";
+      #binding-cells = <0>;
+      tapping-term-ms = <200>;
+      bindings = <&kp DOT>, <&kp TAB>;
+    };
+  };
+
+  keymap {
+    compatible = "zmk,keymap";
+
+    qwerty_layer {
+      label = "QWERTY";
+      bindings = <
+ &kp Q           &kp W      &kp E       &kp R        &kp T &kp Y &kp U        &kp I       &kp O      &kp P
+ &hm LGUI A      &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G &kp H &hm RSHIFT J &hm RCTRL K &hm RALT L &hm RGUI SEMI
+ &kp Z           &kp X      &kp C       &kp V        &kp B &kp N &kp M        &kp COMMA   &kp DOT    &kp FSLH
+ &mt F19 ESC &lt SYMBOL BSPC &lt SHORTCUTS TAB &kp RET &lt CONTROL SPACE &lt SHORTCUTS SQT
+      >;
+    };
+    symbol_layer {
+      label = "SYMBOL";
+      bindings = <
+&kp EXCL    &kp AT     &kp LBRC &kp RBRC &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &caps_word
+&kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
+&kp PERCENT &kp CARET  &kp LBKT &kp RBKT &kp TILDE &kp AMPS  &kp QMARK &kp LT    &kp GT    &kp BACKSLASH
+                             &trans &trans &trans &trans &trans &kp DQT
+      >;
+    };
+
+    control_layer {
+      label = "CONTRL";
+      bindings = <
+&kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6   &kp N7   &kp N8 &kp N9    &kp N0
+&trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+&trans &trans &trans &trans &trans &trans   &trans   &trans &trans    &trans
+             &trans &trans &trans &trans   &trans   &sk GLOBE
+      >;
+    };
+
+    adjust_layer {
+      label = "ADJUST";
+      bindings = <
+&sys_reset &bootloader &bt BT_CLR &out OUT_USB &out OUT_BLE &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+&kp F1     &kp F2      &kp F3     &kp F4       &kp F5       &trans       &trans           &trans       &trans       &trans
+&kp F6     &kp F7      &kp F8     &kp F9       &kp F10      &trans       &kp C_PLAY_PAUSE &kp C_VOL_DN &kp C_VOL_UP &NEXT_PREV
+                       &trans     &trans       &trans       &trans       &trans           &trans
+      >;
+   };
+
+    shortcuts_layer {
+      label = "SHRTCT";
+      bindings = <
+&kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp BSPC  &kp N7 &kp N8 &kp N9 &kp PASS
+&kp SWIN &SCRNSHT &kp ZMIN &kp TABN &kp HFWD &kp N0    &kp N4 &kp N5 &kp N6 &kp TAB
+&kp SPC  &kp RET   &kp ZOUT &kp TABP &kp HBCK &DOT_TAB &kp N1 &kp N2 &kp N3 &kp DOT
+                  &kp PTT &kp MUTE &trans   &trans   &trans &trans
+      >;
+    };
+  };
+};
+
+||||||| parent of 8171701 (Testing a cygnus build)
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/* LAYERS */
+#define QWERTY    0
+#define SYMBOL    1
+#define CONTROL   2
+#define ADJUST    3
+#define SHORTCUTS 4
+
+/* MACROS */
+#define SWIN LG(GRAVE)
+#define SCRN LG(LS(LC(N4)))
+#define SCR2 LG(LS(N4))
+#define ZMIN LG(EQUAL)
+#define ZOUT LG(MINUS)
+#define TABN LS(LG(RBKT))
+#define TABP LS(LG(LBKT))
+#define HBCK LG(LBKT)
+#define HFWD LG(RBKT)
+#define PASS LG(BSLH)
+#define MUTE LG(LS(M))
+#define PTT  LA(SPC)
+
+&mt {
+  tapping-term-ms = <150>;
+};
+
+/ {
+  chosen {
+    zmk,matrix_transform = &five_column_transform;
+  };
+
+  combos {
+    compatible = "zmk,combos";
+    combo_esc {
+      timeout-ms = <50>;
+      key-positions = <20 21>;
+      bindings = <&mt F19 ESC>;
+    };
+    combo_quote {
+      timeout-ms = <50>;
+      key-positions = <18 19>;
+      bindings = <&lt SHORTCUTS SQT>;
+    };
+  };
+
+  conditional_layers {
+    compatible = "zmk,conditional-layers";
+
+    tri_layer {
+      if-layers = <SYMBOL CONTROL>;
+      then-layer = <ADJUST>;
+    };
+  };
+
+  behaviors {
+    hm: homerow_mods {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_MODS";
+      #binding-cells = <2>;
+      tapping-term-ms = <150>;
+      quick_tap_ms = <0>;
+      flavor = "tap-preferred";
+      bindings = <&kp>, <&kp>;
+    };
+    NEXT_PREV: tap_dance_0 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "NEXT_PREV";
+      #binding-cells = <0>;
+      tapping-term-ms = <200>;
+      bindings = <&kp C_NEXT>, <&kp C_PREV>;
+    };
+    SCRNSHT: tap_dance_1 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "SCRNSHT";
+      #binding-cells = <0>;
+      tapping-term-ms = <200>;
+      bindings = <&kp SCRN>, <&kp SCR2>;
+    };
+    SPCRET: tap_dance_2 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "SPCRET";
+      #binding-cells = <0>;
+      tapping-term-ms = <150>;
+      bindings = <&kp SPACE>, <&kp RET>;
+    };
+  };
+
+  keymap {
+    compatible = "zmk,keymap";
+
+    qwerty_layer {
+      label = "QWERTY";
+      bindings = <
+ &kp Q           &kp W      &kp E       &kp R        &kp T &kp Y &kp U        &kp I       &kp O      &kp P
+ &hm LGUI A      &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G &kp H &hm RSHIFT J &hm RCTRL K &hm RALT L &hm RGUI SEMI
+ &kp Z           &kp X      &kp C       &kp V        &kp B &kp N &kp M        &kp COMMA   &kp DOT    &kp FSLH
+ &mt F19 ESC &lt SYMBOL BSPC &lt SHORTCUTS TAB &kp RET &lt CONTROL SPACE &lt SHORTCUTS SQT
+      >;
+    };
+    symbol_layer {
+      label = "SYMBOL";
+      bindings = <
+&kp EXCL    &kp AT     &kp LBRC &kp RBRC &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &caps_word
+&kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
+&kp PERCENT &kp CARET  &kp LBKT &kp RBKT &kp TILDE &kp AMPS  &kp QMARK &kp LT    &kp GT    &kp BACKSLASH
+                             &trans &trans &trans &trans &trans &kp DQT
+      >;
+    };
+
+    control_layer {
+      label = "CONTRL";
+      bindings = <
+&kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6   &kp N7   &kp N8 &kp N9    &kp N0
+&trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+&trans &trans &trans &trans &trans &trans   &trans   &trans &trans    &trans
+             &trans &trans &trans &trans   &trans   &sk GLOBE
+      >;
+    };
+
+    adjust_layer {
+      label = "ADJUST";
+      bindings = <
+&sys_reset &bootloader &bt BT_CLR &out OUT_USB &out OUT_BLE &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+&kp F1     &kp F2      &kp F3     &kp F4       &kp F5       &trans       &trans           &trans       &trans       &trans
+&kp F6     &kp F7      &kp F8     &kp F9       &kp F10      &trans       &kp C_PLAY_PAUSE &kp C_VOL_DN &kp C_VOL_UP &NEXT_PREV
+                       &trans     &trans       &trans       &trans       &trans           &trans
+      >;
+   };
+
+    shortcuts_layer {
+      label = "SHRTCT";
+      bindings = <
+&kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &kp PASS
+&kp SWIN &SCRNSHT &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
+&kp SPC  &kp RET   &kp ZOUT &kp TABP &kp HBCK &trans   &kp N1 &kp N2 &kp N3 &kp DOT
+                  &kp PTT &kp MUTE &trans   &trans   &trans &trans
+      >;
+    };
+  };
+};
