@@ -15,3 +15,7 @@
 include:
   - board: corneish_zen_v2_left
   - board: corneish_zen_v2_right
+  - board: nice_nano_v2
+    shield: cygnus_left
+  - board: nice_nano_v2
+    shield: cygnus_right
