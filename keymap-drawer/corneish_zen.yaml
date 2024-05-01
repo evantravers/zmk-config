@@ -158,12 +158,12 @@ layers:
   - '7'
   - '8'
   - '9'
-  - LG(BSLH)
-  - LG(GRAVE)
+  - Gui+ \
+  - Gui+ `
   - '&SCRNSHT'
-  - LG(EQUAL)
-  - LS(LG(RBKT))
-  - LG(RBKT)
+  - Gui+ =
+  - Sft+Gui+ ]
+  - Gui+ ]
   - '0'
   - '4'
   - '5'
@@ -171,22 +171,24 @@ layers:
   - TAB
   - SPC
   - RET
-  - LG(MINUS)
-  - LS(LG(LBKT))
-  - LG(LBKT)
+  - Gui+ -
+  - Sft+Gui+ [
+  - Gui+ [
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - .
-  - LA(SPC)
-  - LG(LS(M))
+  - Alt+ SPC
+  - Gui+Sft+ M
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [20, 21]
-  k: {t: ESC, h: F19}
+- p: [0, 1]
+  k: ESC
 - p: [18, 19]
   k: {t: '''', h: shortcuts}
+- p: [10, 19]
+  k: {t: '4', h: sticky}
