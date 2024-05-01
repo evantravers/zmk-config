@@ -52,6 +52,11 @@
       key-positions = <18 19>;
       bindings = <&lt SHORTCUTS SQT>;
     };
+    combo_hyper {
+      timeout-ms = <50>;
+      key-positions = <10 19>;
+      bindings = <&sk SHORTCUTS>;
+    };
   };
 
   conditional_layers {
