@@ -285,7 +285,7 @@ path.combo {
 <path d="M364,105 l-317,0" class="combo"/>
 <path d="M364,105 l317,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
-<text x="364" y="105" class="combo tap">4</text>
+<text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
 </g>
 </g>
@@ -449,7 +449,7 @@ path.combo {
 <path d="M364,105 l-317,0" class="combo"/>
 <path d="M364,105 l317,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
-<text x="364" y="105" class="combo tap">4</text>
+<text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
 </g>
 </g>
@@ -614,7 +614,7 @@ path.combo {
 <path d="M364,105 l-317,0" class="combo"/>
 <path d="M364,105 l317,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
-<text x="364" y="105" class="combo tap">4</text>
+<text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
 </g>
 </g>
@@ -794,7 +794,7 @@ path.combo {
 <path d="M364,105 l-317,0" class="combo"/>
 <path d="M364,105 l317,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
-<text x="364" y="105" class="combo tap">4</text>
+<text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
 </g>
 </g>
@@ -978,7 +978,7 @@ path.combo {
 <path d="M364,105 l-317,0" class="combo"/>
 <path d="M364,105 l317,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
-<text x="364" y="105" class="combo tap">4</text>
+<text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
 </g>
 </g>

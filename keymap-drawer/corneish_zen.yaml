@@ -191,4 +191,4 @@ combos:
 - p: [18, 19]
   k: {t: '''', h: shortcuts}
 - p: [10, 19]
-  k: {t: '4', h: sticky}
+  k: {t: F19, h: sticky}
