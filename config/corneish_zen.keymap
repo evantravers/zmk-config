@@ -55,7 +55,7 @@
     combo_hyper {
       timeout-ms = <50>;
       key-positions = <10 19>;
-      bindings = <&sk SHORTCUTS>;
+      bindings = <&sk F19>;
     };
   };
 
