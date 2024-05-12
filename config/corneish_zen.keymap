@@ -50,13 +50,18 @@
     combo_quote {
       timeout-ms = <50>;
       key-positions = <18 19>;
-      bindings = <&lt SHORTCUTS SQT>;
+      bindings = <&kp SQT>;
     };
     combo_hyper {
       timeout-ms = <50>;
       key-positions = <10 19>;
       bindings = <&sk F19>;
     };
+    combo_shortcuts {
+      timeout-ms = <50>;
+      key-positions = <19 29>;
+      bindings = <&mo SHRTCT>;
+    }
   };
 
   conditional_layers {
