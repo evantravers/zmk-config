@@ -279,7 +279,6 @@ path.combo {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="658" y="85" width="28" height="26" class="combo"/>
 <text x="672" y="98" class="combo tap">&#x27;</text>
-<text x="672" y="109" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 <g class="combo combopos-2">
 <path d="M364,105 l-317,0" class="combo"/>
@@ -287,6 +286,10 @@ path.combo {
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
 <text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="686" y="120" width="28" height="26" class="combo"/>
+<text x="700" y="133" class="combo tap"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 </g>
 </g>
@@ -443,7 +446,6 @@ path.combo {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="658" y="85" width="28" height="26" class="combo"/>
 <text x="672" y="98" class="combo tap">&#x27;</text>
-<text x="672" y="109" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 <g class="combo combopos-2">
 <path d="M364,105 l-317,0" class="combo"/>
@@ -451,6 +453,10 @@ path.combo {
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
 <text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="686" y="120" width="28" height="26" class="combo"/>
+<text x="700" y="133" class="combo tap"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 </g>
 </g>
@@ -608,7 +614,6 @@ path.combo {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="658" y="85" width="28" height="26" class="combo"/>
 <text x="672" y="98" class="combo tap">&#x27;</text>
-<text x="672" y="109" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 <g class="combo combopos-2">
 <path d="M364,105 l-317,0" class="combo"/>
@@ -616,6 +621,10 @@ path.combo {
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
 <text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="686" y="120" width="28" height="26" class="combo"/>
+<text x="700" y="133" class="combo tap"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 </g>
 </g>
@@ -788,7 +797,6 @@ path.combo {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="658" y="85" width="28" height="26" class="combo"/>
 <text x="672" y="98" class="combo tap">&#x27;</text>
-<text x="672" y="109" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 <g class="combo combopos-2">
 <path d="M364,105 l-317,0" class="combo"/>
@@ -796,6 +804,10 @@ path.combo {
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
 <text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="686" y="120" width="28" height="26" class="combo"/>
+<text x="700" y="133" class="combo tap"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 </g>
 </g>
@@ -918,9 +930,9 @@ path.combo {
 <tspan x="0" dy="-0.6em">Gui+</tspan><tspan x="0" dy="1.2em">[</tspan>
 </text>
 </g>
-<g transform="translate(476, 154)" class="key trans keypos-25">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(476, 154)" class="key keypos-25">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;DOT_TAB</tspan></text>
 </g>
 <g transform="translate(532, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -972,7 +984,6 @@ path.combo {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="658" y="85" width="28" height="26" class="combo"/>
 <text x="672" y="98" class="combo tap">&#x27;</text>
-<text x="672" y="109" class="combo hold"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 <g class="combo combopos-2">
 <path d="M364,105 l-317,0" class="combo"/>
@@ -980,6 +991,10 @@ path.combo {
 <rect rx="6" ry="6" x="350" y="92" width="28" height="26" class="combo"/>
 <text x="364" y="105" class="combo tap">F19</text>
 <text x="364" y="116" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="686" y="120" width="28" height="26" class="combo"/>
+<text x="700" y="133" class="combo tap"><tspan style="font-size: 78%">shortcuts</tspan></text>
 </g>
 </g>
 </g>
