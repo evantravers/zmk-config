@@ -104,7 +104,7 @@
       tapping-term-ms = <150>;
       bindings = <&kp SPACE>, <&kp RET>;
     };
-    NEXT_PREV: tap_dance_3 {
+    DOT_TAB: tap_dance_3 {
       compatible = "zmk,behavior-tap-dance";
       label = "DOT_TAB";
       #binding-cells = <0>;
