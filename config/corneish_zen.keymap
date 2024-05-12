@@ -60,7 +60,7 @@
     combo_shortcuts {
       timeout-ms = <50>;
       key-positions = <19 29>;
-      bindings = <&mo SHRTCT>;
+      bindings = <&mo SHORTCUTS>;
     };
   };
 
