@@ -174,7 +174,7 @@ layers:
   - Gui+ -
   - Sft+Gui+ [
   - Gui+ [
-  - '&DOT_TAB'
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -194,3 +194,7 @@ combos:
   k: {t: F19, h: sticky}
 - p: [19, 29]
   k: shortcuts
+- p: [20, 21]
+  k: {t: ESC, h: F19}
+- p: [18, 19]
+  k: {t: '''', h: shortcuts}
