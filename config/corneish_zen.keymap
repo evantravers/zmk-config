@@ -52,16 +52,19 @@
       timeout-ms = <50>;
       key-positions = <18 19>;
       bindings = <&kp SQT>;
+      layers = <0>;
     };
     combo_hyper {
       timeout-ms = <50>;
       key-positions = <10 19>;
       bindings = <&sk F19>;
+      layers = <0>;
     };
     combo_shortcuts {
       timeout-ms = <50>;
       key-positions = <19 29>;
       bindings = <&mo SHORTCUTS>;
+      layers = <0>;
     };
   };
 
