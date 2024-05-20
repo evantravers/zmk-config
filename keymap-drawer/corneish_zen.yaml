@@ -191,7 +191,10 @@ combos:
   l: [qwerty]
 - p: [18, 19]
   k: ''''
+  l: [qwerty]
 - p: [10, 19]
   k: {t: F19, h: sticky}
+  l: [qwerty]
 - p: [19, 29]
   k: shortcuts
+  l: [qwerty]
