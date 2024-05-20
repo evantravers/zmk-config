@@ -188,6 +188,7 @@ layers:
 combos:
 - p: [0, 1]
   k: ESC
+  l: [qwerty]
 - p: [18, 19]
   k: ''''
 - p: [10, 19]
