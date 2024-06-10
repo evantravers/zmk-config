@@ -5,4 +5,4 @@
 - Mainly for my [Corne-ish Zen](https://evantravers.com/articles/2022/04/19/review-corne-ish-zen/).
 - Hopefully going to be for a Cygnus soon…
 - I have successfully moved to mostly using a `3x5_2` layout like a Ferris Sweep.
-- This layout is more or less mirrored on my [QMK firmware fork](https://github.com/evantravers/qmk_firmware).
+- This layout is more or less mirrored on my [QMK firmware userspace](https://github.com/evantravers/qmk_userspace) from a layout developed on my [QMK firmware fork](https://github.com/evantravers/qmk_firmware).
