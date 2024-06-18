@@ -133,7 +133,7 @@
       label = "SYMBOL";
       bindings = <
 &kp EXCL    &kp AT     &kp LBRC &kp RBRC &kp PIPE  &kp CARET &kp UNDER &kp PLUS  &kp SLASH &caps_word
-&kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp SLASH &kp MINUS &kp EQUAL &kp STAR  &kp COLON
+&kp HASH    &kp DOLLAR &kp LPRN &kp RPRN &kp GRAVE &kp DQT   &kp MINUS &kp EQUAL &kp STAR  &kp COLON
 &kp PERCENT &kp CARET  &kp LBKT &kp RBKT &kp TILDE &kp AMPS  &kp QMARK &kp LT    &kp GT    &kp BACKSLASH
                              &trans &trans &trans &trans &trans &kp DQT
       >;
