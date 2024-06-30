@@ -60,12 +60,6 @@
       bindings = <&sk F19>;
       layers = <0>;
     };
-    combo_shortcuts {
-      timeout-ms = <50>;
-      key-positions = <19 29>;
-      bindings = <&mo SHORTCUTS>;
-      layers = <0>;
-    };
   };
 
   conditional_layers {
