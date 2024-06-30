@@ -34,7 +34,7 @@ layers:
   - {t: ESC, h: F19}
   - {t: BSPC, h: symbol}
   - {t: TAB, h: shortcuts}
-  - RET
+  - {t: RET, h: shortcuts}
   - {t: SPACE, h: control}
   - {t: '''', h: shortcuts}
   symbol:
