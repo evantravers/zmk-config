@@ -70,12 +70,12 @@
   conditional_layers {
     compatible = "zmk,conditional-layers";
 
-    tri_layer {
+    mouse_layer {
       if-layers = <SYMBOL CONTROL>;
       then-layer = <MOUSE>;
     };
 
-    tri_layer {
+    adjust_layer {
       if-layers = <SHORTCUTS CONTROL>;
       then-layer = <ADJUST>;
     };
