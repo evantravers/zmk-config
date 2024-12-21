@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 layers:
-  qwerty:
+  QWERTY:
   - Q
   - W
   - E
@@ -32,12 +32,12 @@ layers:
   - .
   - /
   - {t: ESC, h: F19}
-  - {t: BSPC, h: symbol}
-  - {t: TAB, h: shortcuts}
-  - {t: RET, h: shortcuts}
-  - {t: SPACE, h: control}
-  - {t: '''', h: shortcuts}
-  symbol:
+  - {t: BSPC, h: SYMBOL}
+  - {t: TAB, h: SHRTCT}
+  - {t: RET, h: SHRTCT}
+  - {t: SPACE, h: CONTRL}
+  - {t: '''', h: SHRTCT}
+  SYMBOL:
   - '!'
   - '@'
   - '{'
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '"'
-  control:
+  CONTRL:
   - '1'
   - '2'
   - '3'
@@ -85,9 +85,9 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -95,15 +95,15 @@ layers:
   - UP
   - RIGHT
   - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,7 +111,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: GLOBE, h: sticky}
-  adjust:
+  ADJUST:
   - '&sys_reset'
   - '&bootloader'
   - BT CLR
@@ -148,7 +148,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  shortcuts:
+  SHRTCT:
   - '1'
   - '2'
   - '3'
@@ -188,10 +188,10 @@ layers:
 combos:
 - p: [0, 1]
   k: ESC
-  l: [qwerty]
+  l: [QWERTY]
 - p: [18, 19]
   k: ''''
-  l: [qwerty]
+  l: [QWERTY]
 - p: [10, 19]
   k: {t: F19, h: sticky}
-  l: [qwerty]
+  l: [QWERTY]
