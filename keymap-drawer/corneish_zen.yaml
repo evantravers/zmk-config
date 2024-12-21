@@ -85,20 +85,20 @@ layers:
   - '8'
   - '9'
   - '0'
+  - {t: ▽, type: trans}
   - '&msc SCRL_UP'
   - '&mmv MOVE_UP'
   - '&msc SCRL_DOWN'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - UP
   - RIGHT
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
