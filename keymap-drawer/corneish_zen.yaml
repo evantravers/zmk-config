@@ -85,11 +85,11 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
   - '&msc SCRL_UP'
   - '&mmv MOVE_UP'
   - '&msc SCRL_DOWN'
-  - {t: ▽, type: trans}
+  - '&msc SCRL_RIGHT'
   - LEFT
   - DOWN
   - UP
