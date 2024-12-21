@@ -111,43 +111,43 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: GLOBE, h: sticky}
-  ADJUST:
-  - '&sys_reset'
-  - '&bootloader'
-  - BT CLR
-  - OUT USB
-  - OUT BLE
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  MOUSE:
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_UP'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RGUI
+  - RALT
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
   - {t: ▽, type: trans}
-  - PLAY PAUSE
-  - VOL DN
-  - VOL UP
-  - '&NEXT_PREV'
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RSHFT
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: GLOBE, h: sticky}
   SHRTCT:
   - '1'
   - '2'
@@ -183,7 +183,44 @@ layers:
   - Gui+Sft+ M
   - {type: held}
   - {t: ▽, type: trans}
+  - '&lt 2'
   - {t: ▽, type: trans}
+  ADJUST:
+  - '&sys_reset'
+  - '&bootloader'
+  - BT CLR
+  - OUT USB
+  - OUT BLE
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - VOL DN
+  - VOL UP
+  - '&NEXT_PREV'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
