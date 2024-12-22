@@ -85,20 +85,20 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_UP'
-  - '&mmv MOVE_UP'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - UP
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -183,7 +183,7 @@ layers:
   - Gui+Sft+ M
   - {type: held}
   - {t: ▽, type: trans}
-  - '&lt 2'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ADJUST:
   - '&sys_reset'
