@@ -158,12 +158,12 @@ layers:
   - '7'
   - '8'
   - '9'
-  - Gui+ \
-  - Gui+ `
+  - Gui+\
+  - Gui+`
   - '&SCRNSHT'
-  - Gui+ =
-  - Sft+Gui+ ]
-  - Gui+ ]
+  - Gui+=
+  - Sft+Gui+]
+  - Gui+]
   - '0'
   - '4'
   - '5'
@@ -171,16 +171,16 @@ layers:
   - TAB
   - SPC
   - RET
-  - Gui+ -
-  - Sft+Gui+ [
-  - Gui+ [
+  - Gui+-
+  - Sft+Gui+[
+  - Gui+[
   - '&DOT_TAB'
   - '1'
   - '2'
   - '3'
   - .
-  - Alt+ SPC
-  - Gui+Sft+ M
+  - Alt+SPC
+  - Gui+Sft+M
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
