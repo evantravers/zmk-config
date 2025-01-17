@@ -20,7 +20,7 @@
 #define CONTROL   2
 #define MOUSE     3
 #define SHORTCUTS 4
-#define SHORTCUTS 5
+#define ARROWS    5
 #define ADJUST    6
 
 /* MACROS */
