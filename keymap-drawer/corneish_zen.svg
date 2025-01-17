@@ -915,8 +915,8 @@ path.combo {
 </g>
 <g transform="translate(230, 213) rotate(15.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#ARROWS">
-<text x="0" y="0" class="key tap layer-activator">ARROWS</text>
+<a href="#NUDGE">
+<text x="0" y="0" class="key tap layer-activator">NUDGE</text>
 </a></g>
 <g transform="translate(295, 224) rotate(30.0)" class="key held keypos-32">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
@@ -935,8 +935,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1653)" class="layer-ARROWS">
-<text x="0" y="28" class="label" id="ARROWS">ARROWS:</text>
+<g transform="translate(30, 1653)" class="layer-NUDGE">
+<text x="0" y="28" class="label" id="NUDGE">NUDGE:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

@@ -180,12 +180,12 @@ layers:
   - '3'
   - .
   - Gui+Sft+M
-  - ARROWS
+  - NUDGE
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ARROWS:
+  NUDGE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP
