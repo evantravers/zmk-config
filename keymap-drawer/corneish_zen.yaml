@@ -179,8 +179,8 @@ layers:
   - '2'
   - '3'
   - .
-  - Alt+SPC
   - Gui+Sft+M
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
