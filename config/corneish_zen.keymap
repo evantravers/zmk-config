@@ -159,9 +159,9 @@
     shortcuts_layer {
       label = "SHRTCT";
       bindings = <
-&kp N1   &kp N2    &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &kp PASS
-&kp SWIN &SCRNSHT  &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
-&kp SPC  &mo NUDGE &kp ZOUT &kp TABP &kp HBCK &DOT_TAB &kp N1 &kp N2 &kp N3 &kp DOT
+&kp N1    &kp N2   &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &kp PASS
+&kp SWIN  &SCRNSHT &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
+&mo NUDGE &kp SPC  &kp ZOUT &kp TABP &kp HBCK &DOT_TAB &kp N1 &kp N2 &kp N3 &kp DOT
                   &kp RET &kp MUTE &trans &trans &trans &trans
       >;
     };
@@ -169,10 +169,10 @@
     arrows_layer {
       label = "NUDGE";
       bindings = <
-&trans    &trans   &kp UP   &trans    &trans &trans &trans &trans &trans &trans
-&kp LCTRL &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans
-&kp LSHFT &trans   &trans   &trans    &trans &trans &trans &trans &trans &trans
-              &trans &trans &trans &trans &trans &trans
+&trans    &trans   &kp UP    &trans    &trans &trans &trans &trans &trans &trans
+&kp LCTRL &kp LEFT &kp DOWN  &kp RIGHT &trans &trans &trans &trans &trans &trans
+&kp LSHFT &trans   &trans    &trans    &trans &trans &trans &trans &trans &trans
+              &trans &kp SPC &kp RET   &trans &trans &trans
       >;
     };
 
