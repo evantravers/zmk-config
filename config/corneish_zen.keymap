@@ -171,8 +171,8 @@
       bindings = <
 &trans    &trans   &kp UP    &trans    &trans &trans &trans &trans &trans &trans
 &kp LCTRL &kp LEFT &kp DOWN  &kp RIGHT &trans &trans &trans &trans &trans &trans
-&kp LSHFT &trans   &trans    &trans    &trans &trans &trans &trans &trans &trans
-              &trans &kp SPC &kp RET   &trans &trans &trans
+&trans    &trans   &trans    &trans    &trans &trans &trans &trans &trans &trans
+              &kp LSHFT &kp SPC &kp RET   &trans &trans &trans
       >;
     };
 
