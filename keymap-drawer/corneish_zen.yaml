@@ -169,8 +169,8 @@ layers:
   - '5'
   - '6'
   - TAB
+  - NUDGE
   - SPC
-  - RET
   - Gui+-
   - Sft+Gui+[
   - Gui+[
@@ -179,8 +179,8 @@ layers:
   - '2'
   - '3'
   - .
+  - RET
   - Gui+Sft+M
-  - NUDGE
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -206,7 +206,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHFT
+  - {t: LSHFT, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,8 +217,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - SPC
+  - {t: RET, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
