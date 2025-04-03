@@ -21,3 +21,5 @@ include:
   - board: corneish_zen_v2_right
     shield: settings_reset
     cmake-args: -DCONFIG_ZMK_DISPLAY=n
+  - board: sparkfun_pro_micro_rp2040
+    shield: endgame
