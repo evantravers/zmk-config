@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-endgame-keyboard
+    - name: zmk-keyboard-endgame
       remote: evantravers
       revision: main
   self:
