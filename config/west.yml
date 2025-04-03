@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: evantravers
+      url-base: https://github.com/evantravers
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-endgame-keyboard
+      remote: evantravers
+      revision: main
   self:
     path: config
