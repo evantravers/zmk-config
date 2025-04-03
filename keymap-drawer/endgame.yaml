@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: corneish_zen, layout_name: five_column_transform}
+layout: {zmk_keyboard: endgame, layout_name: five_column_transform}
 layers:
   QWERTY:
   - Q
