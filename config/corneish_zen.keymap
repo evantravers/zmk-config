@@ -105,13 +105,6 @@
       tapping-term-ms = <200>;
       bindings = <&kp SCRN>, <&kp SCR2>;
     };
-    DOT_TAB: tap_dance_3 {
-      compatible = "zmk,behavior-tap-dance";
-      label = "DOT_TAB";
-      #binding-cells = <0>;
-      tapping-term-ms = <200>;
-      bindings = <&kp DOT>, <&kp TAB>;
-    };
   };
 
   keymap {
@@ -161,7 +154,7 @@
       bindings = <
 &kp N1    &kp N2   &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &kp PASS
 &kp SWIN  &SCRNSHT &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB
-&mo NUDGE &kp SPC  &kp ZOUT &kp TABP &kp HBCK &DOT_TAB &kp N1 &kp N2 &kp N3 &kp DOT
+&mo NUDGE &kp SPC  &kp ZOUT &kp TABP &kp HBCK &kp DOT  &kp N1 &kp N2 &kp N3 &kp DOT
                   &kp RET &kp MUTE &trans &trans &trans &trans
       >;
     };
