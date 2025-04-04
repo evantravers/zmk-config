@@ -32,10 +32,10 @@ layers:
   - .
   - /
   - {t: ESC, h: F19}
-  - {t: TAB, h: SHRTCT}
   - {t: BSPC, h: SYMBOL}
-  - {t: SPACE, h: CONTRL}
+  - {t: TAB, h: SHRTCT}
   - {t: RET, h: SHRTCT}
+  - {t: SPACE, h: CONTRL}
   - {t: '''', h: SHRTCT}
   SYMBOL:
   - '!'
@@ -69,8 +69,8 @@ layers:
   - '>'
   - \
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '"'
@@ -108,8 +108,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: GLOBE, h: sticky}
   MOUSE:
   - '&msc SCRL_LEFT'
@@ -143,10 +143,10 @@ layers:
   - {t: ▽, type: trans}
   - RSHFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: GLOBE, h: sticky}
   SHRTCT:
   - '1'
@@ -180,8 +180,8 @@ layers:
   - '3'
   - .
   - RET
-  - {t: Gui+Sft+M, type: held}
-  - {t: ▽, type: trans}
+  - Gui+Sft+M
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,8 +217,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - {t: SPC, type: held}
-  - RET
+  - SPC
+  - {t: RET, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -254,10 +254,10 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
