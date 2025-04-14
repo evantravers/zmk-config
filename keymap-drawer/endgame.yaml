@@ -43,7 +43,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - ^
+  - '"'
   - _
   - +
   - /
@@ -53,7 +53,7 @@ layers:
   - LPRN
   - RPRN
   - '`'
-  - '"'
+  - ''''
   - '-'
   - '='
   - '*'
@@ -102,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PLAY PAUSE
-  - VOL DN
+  - '&DWN_MUTE'
   - VOL UP
   - '&NEXT_PREV'
   - {t: ▽, type: trans}
@@ -169,24 +169,24 @@ layers:
   - '5'
   - '6'
   - TAB
-  - NUDGE
-  - SPC
+  - {t: NUDGE, h: toggle}
+  - {t: ▽, type: trans}
   - Gui+-
   - Sft+Gui+[
   - Gui+[
-  - '&DOT_TAB'
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - .
-  - RET
-  - {t: Gui+Sft+M, type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUDGE:
-  - {t: ▽, type: trans}
+  - {t: NUDGE, h: toggle}
   - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
@@ -206,19 +206,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LSHFT
-  - {t: RET, type: held}
-  - SPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

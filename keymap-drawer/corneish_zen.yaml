@@ -32,10 +32,10 @@ layers:
   - .
   - /
   - {t: ESC, h: F19}
-  - {t: BSPC, h: SYMBOL}
   - {t: TAB, h: SHRTCT}
-  - {t: RET, h: SHRTCT}
+  - {t: BSPC, h: SYMBOL}
   - {t: SPACE, h: CONTRL}
+  - {t: RET, h: SHRTCT}
   - {t: '''', h: SHRTCT}
   SYMBOL:
   - '!'
@@ -43,7 +43,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - ^
+  - '"'
   - _
   - +
   - /
@@ -53,7 +53,7 @@ layers:
   - LPRN
   - RPRN
   - '`'
-  - '"'
+  - ''''
   - '-'
   - '='
   - '*'
@@ -69,8 +69,8 @@ layers:
   - '>'
   - \
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '"'
@@ -108,8 +108,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: GLOBE, h: sticky}
   MOUSE:
   - '&msc SCRL_LEFT'
@@ -143,10 +143,10 @@ layers:
   - {t: ▽, type: trans}
   - RSHFT
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
   - {t: GLOBE, h: sticky}
   SHRTCT:
   - '1'
@@ -169,8 +169,8 @@ layers:
   - '5'
   - '6'
   - TAB
-  - NUDGE
-  - SPC
+  - {t: NUDGE, h: toggle}
+  - Gui+Sft+M
   - Gui+-
   - Sft+Gui+[
   - Gui+[
@@ -179,14 +179,14 @@ layers:
   - '2'
   - '3'
   - .
-  - RET
-  - Gui+Sft+M
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUDGE:
   - {t: ▽, type: trans}
+  NUDGE:
+  - {t: NUDGE, h: toggle}
   - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
@@ -206,19 +206,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LSHFT
-  - SPC
-  - {t: RET, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -254,10 +254,10 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
@@ -268,4 +268,10 @@ combos:
   l: [QWERTY]
 - p: [10, 19]
   k: {t: F19, h: sticky}
+  l: [QWERTY]
+- p: [4, 14]
+  k: SPC
+  l: [QWERTY]
+- p: [20, 21]
+  k: RET
   l: [QWERTY]
