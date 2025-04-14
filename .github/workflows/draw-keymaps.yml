@@ -5,7 +5,7 @@ on:
   push:               # automatically run on changes to following paths
     paths:
       - "config/corneish_zen.keymap"
-      - "config/*.dtsi"
+      # - "config/*.dtsi"
       - "keymap-drawer/keymap_drawer.config.yml"
       # - 'config/boards/*/*/*.keymap'
 
