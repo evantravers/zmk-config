@@ -102,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PLAY PAUSE
-  - VOL DN
+  - '&DWN_MUTE'
   - VOL UP
   - '&NEXT_PREV'
   - {t: ▽, type: trans}
@@ -256,8 +256,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
@@ -274,4 +274,7 @@ combos:
   l: [QWERTY]
 - p: [20, 21]
   k: RET
+  l: [QWERTY]
+- p: [31, 34]
+  k: ADJUST
   l: [QWERTY]

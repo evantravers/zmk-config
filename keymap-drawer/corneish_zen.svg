@@ -313,6 +313,13 @@ path.combo {
 <rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
 <text x="56" y="154" class="combo tap">RET</text>
 </g>
+<g class="combo combopos-5">
+<path d="M364,213 l-116,0" class="combo"/>
+<path d="M364,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="200" width="28" height="26" class="combo"/>
+<a href="#ADJUST">
+<text x="364" y="213" class="combo tap layer-activator">ADJUST</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-SYMBOL">
@@ -578,9 +585,7 @@ path.combo {
 </g>
 <g transform="translate(588, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">VOL</tspan><tspan x="0" dy="1.2em">DN</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;DWN_MUTE</tspan></text>
 </g>
 <g transform="translate(644, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1241,12 +1246,12 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(433, 224) rotate(-30.0)" class="key held keypos-33">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
-</g>
-<g transform="translate(498, 213) rotate(-15.0)" class="key trans keypos-34">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(433, 224) rotate(-30.0)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g transform="translate(498, 213) rotate(-15.0)" class="key held keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(560, 205)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
