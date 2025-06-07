@@ -99,8 +99,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - END
   - PLAY PAUSE
   - '&DWN_MUTE'
   - VOL UP
@@ -256,8 +256,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
@@ -274,7 +274,4 @@ combos:
   l: [QWERTY]
 - p: [20, 21]
   k: RET
-  l: [QWERTY]
-- p: [31, 34]
-  k: ADJUST
   l: [QWERTY]
