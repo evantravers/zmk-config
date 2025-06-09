@@ -1,4 +1,4 @@
-# ZMK Config for 3x5\_3
+# ZMK Config for 3x5\_2
 
 ![](https://raw.githubusercontent.com/evantravers/zmk-config/master/keymap-drawer/corneish_zen.svg)
 
