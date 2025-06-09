@@ -8,5 +8,7 @@
 
 ## Quick Note on Thumb Position Strategy:
 
-- Using the most thumb-side key to be the "thumb rest". Compressed layouts like the Bancounver40 are more usable, and the overall footprint of the keyboard is smaller.
-- Therefore the secondary thumb key is "inner," which feels relatively natural to curl rather than stretch. We'll see about the long-term ergos of this, it's new to me.
+- I prefer to rest my thumbs neutrally just outside (roughly 1u) outside my homerow pointer fingers. (Primary thumb, anchor position)
+- The secondary thumb key is outside that anchor position, where I curl my thumb towards my palm to reach it.
+- Compressed layouts like the Bancounver40 are more usable, and the overall footprint of the keyboard is smaller.
+- We'll see about the long-term ergos of this, it's new to me.
