@@ -74,7 +74,7 @@
     };
     combo_space {
       timeout-ms = <50>;
-      key-positions = <4 14>;
+      key-positions = <2 12>;
       bindings = <&kp SPC>; layers = <0>;
     };
     combo_return {
