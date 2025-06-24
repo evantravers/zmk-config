@@ -269,7 +269,7 @@ combos:
 - p: [10, 19]
   k: {t: F19, h: sticky}
   l: [QWERTY]
-- p: [4, 14]
+- p: [2, 12]
   k: SPC
   l: [QWERTY]
 - p: [20, 21]
