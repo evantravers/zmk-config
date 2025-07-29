@@ -110,7 +110,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: GLOBE, h: sticky}
+  - {t: ▽, type: trans}
   MOUSE:
   - '&msc SCRL_LEFT'
   - '&msc SCRL_UP'
@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: GLOBE, h: sticky}
+  - {t: ▽, type: trans}
   SHRTCT:
   - '1'
   - '2'
@@ -181,7 +181,7 @@ layers:
   - .
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: GLOBE, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
