@@ -1,6 +1,6 @@
 # ZMK Config for 3x5\_2
 
-![](https://raw.githubusercontent.com/evantravers/zmk-config/master/keymap-drawer/corneish_zen.svg)
+![](https://raw.githubusercontent.com/evantravers/zmk-config/master/keymap-drawer/cradio.svg)
 
 - Mainly for my [Corne-ish Zen](https://evantravers.com/articles/2022/04/19/review-corne-ish-zen/), hopefully going to be for a [Cygnus](https://github.com/juhakaup/keyboards/tree/main/Cygnus%20v1.0) soon…
 - I have successfully moved to mostly using a `3x5_2` layout like a Ferris Sweep.
