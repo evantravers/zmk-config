@@ -1,5 +1,9 @@
 draw_config:
   zmk_keycode_map:
-    F19: $$tabler:diamonds$$
+    F19: $$fa:solid/diamond$$
     LPRN: '('
     RPRN: ')'
+    LEFT_PARENTHESIS: '('
+    LPAR: '('
+    RIGHT_PARENTHESIS: ')'
+    RPAR: ')'
