@@ -172,7 +172,7 @@ layers:
   - '3'
   - .
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: GLOBE, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUDGE:
