@@ -27,7 +27,6 @@
 #define HBCK LG(LBKT)
 #define HFWD LG(RBKT)
 #define PASS LG(BSLH)
-#define MUTE LG(LS(M))
 
 &mt {
   tapping-term-ms = <150>;
@@ -156,7 +155,7 @@
 #define SHORTCUTS_LAYER \
 &kp N1    &kp N2   &kp N3   &kp N4   &kp N5   &kp BSPC &kp N7 &kp N8 &kp N9 &kp PASS \
 &kp SWIN  &SCRNSHT &kp ZMIN &kp TABN &kp HFWD &kp N0   &kp N4 &kp N5 &kp N6 &kp TAB \
-&tog NUDGE &kp MUTE   &kp ZOUT &kp TABP &kp HBCK &kp DOT  &kp N1 &kp N2 &kp N3 &kp DOT
+&tog NUDGE &kp F18 &kp ZOUT &kp TABP &kp HBCK &kp DOT  &kp N1 &kp N2 &kp N3 &kp DOT
 
 #define ARROWS_LAYER \
 &tog NUDGE &trans   &kp UP    &trans    &trans &trans &trans &trans &trans &trans \
