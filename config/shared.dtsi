@@ -119,6 +119,16 @@
       tapping-term-ms = <200>;
       bindings = <&kp C_VOL_DN>, <&kp C_MUTE>;
     };
+    WIND: wind_macro {
+      compatible = "zmk,behavior-macro";
+      label = "WIND";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LCTRL &kp CAPS>
+        , <&macro_pause_for_release>
+        , <&macro_release &kp LCTRL &kp CAPS>
+        ;
+    };
   };
 };
 
@@ -135,7 +145,7 @@
 
 #define CONTROL_LAYER \
 &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6   &kp N7           &kp N8       &kp N9       &kp N0 \
-&trans &trans &trans &trans &trans &kp LEFT &kp DOWN         &kp UP       &kp RIGHT    &trans \
+&trans &trans &trans &trans &trans &kp LEFT &kp DOWN         &kp UP       &kp RIGHT    &WIND \
 &trans &trans &trans &trans &kp HOME &kp END &kp C_PLAY_PAUSE &DWN_MUTE &kp C_VOL_UP &NEXT_PREV
 
 #define MOUSE_LAYER \
