@@ -123,9 +123,9 @@
       label = "WIND";
       #binding-cells = <0>;
       bindings
-        = <&macro_press &kp LCTRL &kp CAPS>
+        = <&macro_press &kp LCTRL &kp GLOBE>
         , <&macro_pause_for_release>
-        , <&macro_release &kp LCTRL &kp CAPS>
+        , <&macro_release &kp LCTRL &kp GLOBE>
         ;
     };
   };
