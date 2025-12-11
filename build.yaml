@@ -13,17 +13,17 @@
 #
 ---
 include:
-  - board: corneish_zen_v2_left
-  - board: corneish_zen_v2_right
-  - board: corneish_zen_v2_left
+  - board: corneish_zen/left
+  - board: corneish_zen/right
+  - board: corneish_zen/left
     shield: settings_reset
     cmake-args: -DCONFIG_ZMK_DISPLAY=n
-  - board: corneish_zen_v2_right
+  - board: corneish_zen/right
     shield: settings_reset
     cmake-args: -DCONFIG_ZMK_DISPLAY=n
-  - board: sparkfun_pro_micro_rp2040
-    shield: endgame
-  - board: nice_nano_v2
+  # - board: sparkfun_pro_micro_rp2040
+  #   shield: endgame
+  - board: nice_nano
     shield: cradio_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: cradio_right
