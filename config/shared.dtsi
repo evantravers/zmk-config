@@ -115,7 +115,7 @@
       compatible = "zmk,behavior-tap-dance";
       label = "DWN_MUTE";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <120>;
       bindings = <&kp C_VOL_DN>, <&kp C_MUTE>;
     };
     WIND: wind_macro {
